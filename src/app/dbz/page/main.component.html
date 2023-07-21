@@ -1,0 +1,13 @@
+<h1>Main DBZ component works</h1>
+<hr>
+
+
+<div class="row mb-5">
+    <div class="col">
+        <dbz-list [charactersList]="getCharacters" (onDelete)="deleteCharacter($event)"></dbz-list>
+    </div>
+
+    <div class="col">
+        <bdz-add-character (character)="addCharacter($event)"></bdz-add-character>
+    </div>
+</div>

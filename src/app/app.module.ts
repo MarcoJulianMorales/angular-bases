@@ -9,6 +9,7 @@ import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './heroes/heroes.module';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { DBZModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DBZModule
   ],
   providers: [],
   bootstrap: [AppComponent]
